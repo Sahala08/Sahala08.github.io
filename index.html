@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>李博涵-计算机视觉</title>
+<!--     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet"  type="text/css" href="assets/css/typo.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed() {
+                    var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                    document.getElementById('side').style.position = value;
+                }
+            </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 414px) {
+                    .switch {
+                        position: relative;
+                        display: inline-block !important;
+                        width: 60px;
+                        height: 34px;
+                    }
+
+                    .switch input {
+                        display: none;
+                    }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    input:checked+.slider {
+                        background-color: #1abc9c;
+                    }
+
+                    input:focus+.slider {
+                        box-shadow: 0 0 1px #1abc9c;
+                    }
+
+                    input:checked+.slider:before {
+                        -webkit-transform: translateX(26px);
+                        -ms-transform: translateX(26px);
+                        transform: translateX(26px);
+                    }
+
+                    .slider.round {
+                        border-radius: 34px;
+                    }
+
+                    .slider.round:before {
+                        border-radius: 50%;
+                    }
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <!-- <div class="loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div> -->
+                    <!-- 头像照片 -->
+                    <img   src="assets/images/card.jpg">
+                </section>
+
+<!--                 <h1 class="name"><strong>意向岗位</strong></h1> -->
+                <h4 class="info-job"><strong>计算机视觉算法</strong> </h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>李博涵 / 男 </span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>CET-6 (556) </span>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class= "fa fa-folder-open" aria-hidden="true"></i>联系方式</h2>
+                <hr />
+                <ul>
+
+                    <li>
+                        <label><i class="fa fa-phone"></i></label>
+                        <a href="13598236783" target="_blank">13598236783</a>
+                    </li>
+               
+                    <li>
+                        <label><i class="fa fa-envelope"></i></label>
+                        <a href="13598236783@163.com" target="_blank">13598236783@163.com</a>
+                    </li>
+             
+                    <li>
+                        <label><i class="fa fa-folder" aria-hidden="true"></i></label>
+                        <a href="https://blog.csdn.net/weixin_42821501?spm=1000.2115.3001.5343" target="_blank">Booo0m的Blog</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                    <h2>
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                    <hr />
+                    <ul>
+                        <li>
+                            <h3>
+                                <p>华南理工大学(985) —— 硕士</p>
+                                <p>专业：控制工程</p>
+                            </h3>
+                            <time>时间：<mark> 2019.9-2022.6</mark></time>
+                            <p>专业排名：<mark>前 20%</mark>
+                            </p>
+                        </li>
+                        <li>
+                            <h3>
+                                <p>东北大学(985) —— 本科</p>
+                                <p>专业：自动化</p>
+                            </h3>
+                            <time>时间：<mark> 2015.9-2019.6</mark></time>
+<!--                             <p>
+                                GPA: <mark>3.5/4.0</mark>
+                            </p> -->
+                            <p>专业排名：<mark>前 20%</mark>
+                            </p>
+                        </li>
+
+                    </ul>
+                </section>
+    
+                <!-- 所获证书 -->
+                <section class="edu info-unit">
+                    <h2>
+                        <i class=None aria-hidden="true"></i>个人荣誉</h2>
+                    <hr />
+    
+                    中国高校人工智能人才国际培养计划结业证书<br />
+                    百度智能云人工智能在线认证证书 <br />
+    
+                </section>
+            <!-- 研究方向 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class=None aria-hidden="true"></i>研究领域</h2>
+                <hr/>
+                三维视觉：<br />
+                    立体匹配，多视角立体重建，单目/双目深度预估<br />
+                广东省精密电子制造装备教育部工程研究中心 <br /> 
+            </section>
+        </section>
+
+        <section class="main">
+
+            <!-- 学术成果 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>学术成果</h2>
+                <hr />
+                <p>
+                    <li>
+                        <i class=None aria-hidden="true"></i>
+                        [论文-SCI]<br />
+                        <p>
+                            
+                            &emsp;1.《Robust Scale-Aware Stereo Matching Network》(IEEE Transactions on Artificial Intelligence, Published, 二作);<br />
+                            &emsp;2.《CMF-Net: Concealed Multi-scale Feature Extraction Network for automatic 4-bar Target Detection in Infrared Imaging》(Optical Engineering, Published, 共同一作/通讯作);<br />
+                            &emsp;3.《Improved stereo matching framework with embedded multilevel attention》(Journal of Electronic Imaging, Published, 一作);<br />
+                            &emsp;4.《Robust Cost Volume Pyramid with Attention-Aware Refinement for Stereo Matching》(IEEE Transactions on Instrumentation and Measurement, Under review, 一作);<br />
+                            &emsp;5.《Robust Stereo Matching using Discriminative Multi-level Features and Multi-modal Bifurcated Cost Volume Network》 (IEEE Sensors, Under review, 二作);
+                        
+                        </p>
+                    </li>
+
+
+                    <li>
+                        <i class=None aria-hidden="true"></i>
+                        [发明型专利]<br />
+                        <p>
+                            &emsp;发明型专利《一种视差回归深度神经网络的构造方法》: CN202010257910.3;<br />
+                            &emsp;发明型专利《一种基于注意力机制的视差优化方法》: CN202011441310.9。<br />
+                        </p>
+                    </li>
+
+
+                </p>
+            </section>
+
+            <!-- 专业能力 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>专业技能</h2>
+                <hr />
+                <p> 
+                    &emsp;熟悉C++/Python，熟悉数据结构与算法，具有良好的语言基础和开发经验，熟悉Linux下常用指令，Docker配置，Unreal Engine(UE)可视化渲染，Mesh素材生成Metahuman，City Engine(CE)使用与CGA Rule设计等;<br />
+                    &emsp;熟悉立体匹配原理及主流网络架构，熟悉单目/双目深度预估原理，熟悉基于MVS/SFM三维重建的Pipeline;<br />
+                    &emsp;熟悉显著性注意力机制，多尺度特征融合网络及多层次模型融合等。<br />
+                </p>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>工作经历</h2>
+                <hr />
+                <ul>
+                    
+                    
+                    <li>
+                        <h3>
+                            <span> Tencent 腾讯AILab平台部</span>
+                            <time>2022.07 至今 </time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                工作岗位: 应用研究员
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [职责描述]<br />
+                                <p>
+                                    对接游戏场景素材，基于Program Content Generate(PCG)方法在City Engine(CE)中生成三维建筑Facade的CGA Rule，导出模型数据并在Unreal Engine(UE)中可视化渲染，生成大规模可交互三维建筑模型。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [主要工作]<br />
+                                <p>
+<!--                                     &emsp;游戏场景建筑素材对接与处理，部分人脸模型Mesh处理(<b>导入UE生成Metahuman</b>)。<br /> -->
+                                    CE建模规则设计，<b>PCG方法大规模生成建筑底层模型，UE渲染实验并分配合理材质，</b>构建合理、多样、国内现代风格的建筑一楼可交互模型。<br />
+                                </p>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <h3>
+                            <span>[实习1]: MEGVII 北京旷视研究院</span>
+                            <time>2020.10-2021.03</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                工作岗位: SegDepth方向算法研究员
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [职责描述]<br />
+                                <p>
+                                    基于Workspace2的Brain++计算服务，使用oss无层次对象存储进行多数据集混合训练，实验多项trick对模型调优。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [主要工作]<br />
+                                <p>
+                                    复现/验证多个SOTA性能的Stereo/Optical flow Backbone，针对<b>手机双摄背景虚化</b>的应用场景改进模型的深度预估精度。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [取得成效]<br />
+                                <p>
+                                    在已有网络架构的基础上重新设计网络末端Refine模块，实施多数据集泛化扩充训练，Finetune得到的模型在原有基础上明显减少Bad case的出现，场景物体预测<b>鲁棒性显著增加</b>，Quantitative test提升约8%。<br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    
+                    <li>
+                        <h3>
+                            <span>[实习2]: Netease 网易伏羲AILab</span>
+                            <time>2021.06-2021.12</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                工作岗位：人工智能研究员（图像方向）
+                            </li>
+                    
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [主要工作]<br />
+                                <p>
+                                    双目立体匹配与视差回归方向算法研究，在现有立体匹配Backbone的基础上实施多尺度代价体积融合与长效依赖建模研究，目前在KITTI2012已取得SOTA效果，<b>全球排名第七</b>(2021.8.10)。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [取得成效]<br />
+                                <p>
+                                    1.对全局一致性的Unary feature进行<b>显著性边界建模</b>，将细粒度边界信息融入网络末端细化初始视差；<br />
+                                    2.在Cost Aggregation的不同阶段融合<b>Spatial-wise & Channel-wise 显著性注意力信息</b>，使网络获得高置信度代价预测。<br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>项目经验</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]<a href="https://www.bilibili.com/video/BV1Q44y157XE?share_source=copy_web" target="_blank"> 中兴通讯公司  自动驾驶中视觉定位关键技术及知识产权布局</a></span>
+                            <span class="link">
+                                <a href="https://www.bilibili.com/video/BV1Q44y157XE?share_source=copy_web" target="_blank">实时深度预估演示Demo</a>
+                            </span>
+                            <time>2019.11-2021.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                项目职责：算法研究员
+                            </li>
+                    
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [项目描述]<br />
+                                <p>
+                                    该项目以立体匹配网络模型为基础，获取高精度视差预测并应用于自动驾驶中三维信息测定，具体分为室外标准数据集测距方案实现与室内变焦测距方案实现，为甲方落地了一套基于双目相机的实时深度检测程序及论文专利若干。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [主要工作]<br />
+                                <p>
+                                    本人负责深度预估算法研究，期间独立完成论文及若干专利，基于多注意力机制设计立体匹配神经网络获取高精度视差回归图，并基于Qt制作了一款实时深度预估演示软件。<br />
+                                </p>
+                            </li>
+
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [算法创新点]<br />
+                                <p> 
+                                    &emsp;&emsp;1.提出了一种端到端的多注意力组合网络，可以有效地将<b>全局上下文信息与局部特征相融合</b>进行立体匹配；<br />
+                                    &emsp;&emsp;2.设计一个<b>独立的嵌入式多级注意力子网络</b>来捕获丰富的全局上下文关系，这对于提高立体骨干网络的特征表现能力至关重要；<br />
+                                    &emsp;&emsp;3.在Sceneflow、KITTI 2012和KITTI 2015数据集上展示了多级注意力子网络和立体骨干网络协同作用的显著提升效果。<br />
+                                </p>
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+
+
+                    <li>
+                        <h3>
+                            <span>[项目2]: 沃佳技术公司  基于参数化/无参化的物体三维重建方案研究与实现</span>
+                            <time>2021.10-2022.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                项目职责：项目组长/算法研究员 
+                            </li>
+                    
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [项目描述]<br />
+                                <p>
+                                    该项目在不同阶段需要多版本的解决方案迭代,前期采用基于sfm的无参化(稀疏重建预估相机外参矩阵)物体重建,后期切换为基于MVSNet(及其变体)的重建方案，并基于多传感器信息融合获取相机外参。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [主要工作]<br />
+                                <p>
+                                    负责整体方案的构建与实施,重点研究物体语义分割抠图、<b>多视图匹配预估、三维点云生成、点云滤波与Mesh生成,</b>最终版本解决方案兼顾速度与精度,可以在中小尺寸常见商品的重建中取得良好效果。<br />
+                                </p>
+                            </li>
+
+                        </ul>
+                    </li>
+                    
+                  
+                    
+                     <li>
+                        <h3>
+                            <span>[项目3]: 基于伪装物体检测算法的工业化布料缺陷检测</span>
+                            <time>2021.5-2022.4</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                项目职责：项目组长/算法研究员 
+                            </li>
+                    
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [项目描述]<br />
+                                <p>
+                                    该项目需要针对工业生产的不同种类布料实时检测出多种低辨别度缺陷，并完成CPP工程实现对接。<br />
+                                </p>
+                            </li>
+                            <li>
+                                <i class=None aria-hidden="true"></i>
+                                [主要工作]<br />
+                                <p>
+                                    负责整体方案的构建与实施，包括数据集标注、清洗，模型选择、调整与训练，并导出ONNX用于工程实现。针对与背景高度相似的缺陷，在已有模型中加入显著性注意力机制，提升伪装目标检测能力，最终定量测试结果准确率提升约18%。<br />
+                                </p>
+                            </li>
+
+                        </ul>
+                    </li>
+                    
+
+                </ul>
+            </section>
+            
+
+
+
+        </section>
+    </article>
+
+
+    <!-- <footer class="footer">
+        <p> <b>感谢您的阅读。</b> </p>
+    </footer> -->
+
+    <!-- 侧栏 -->
+    <!-- <aside>
+        <ul>
+            <li>
+                <a href="https://github.com/hackhu2019" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="https://blog.csdn.net/qq_38288847" target="_blank">Blog</a>
+            </li>
+        </ul>
+    </aside> -->
+
+    <script src="./assets/js/index.js" type="text/javascript"></script>
+
+</body>
+
+</html>
