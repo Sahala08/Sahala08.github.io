@@ -17,15 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**I am now applying for a Ph.D. program to further my research. My research interest includes Biometrics, Computer Vision, Deep Learning.** I recently completed my Master's degree at South China University of Technology, where I was supervised by **[Prof. Wenxiong Kang](https://www.scholat.com/auwxkang)** and **[Prof. Junduan Huang](https://www.scholat.com/junduanhuang)**, focusing on **biometrics, computer vision, and deep learning**. Moreover, I received my Bachelor's Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**.
+**I am applying for a Ph.D. program to further my research. My research interest includes Biometrics, Computer Vision, Deep Learning.** I recently completed my Master's degree at South China University of Technology, SCUT. In which, I was supervised by **[Prof. Wenxiong Kang](https://www.scholat.com/auwxkang)** and **[Prof. Feiqi Deng](https://yanzhao.scut.edu.cn/open/ExpertInfo.aspx?zjbh=!JRAmWbMdOxrzarf0xUo7w==)**, focusing on **biometrics, computer vision, and deep learning**. I also cooperated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**. Before that, I received my Bachelor's Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**.
 
 
-I have published 2 papers at the IEEE Transactions.<a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+Although I have actively participated in several research projects, I do not have any first-author publications yet. I have published 2 papers at the IEEE Transactions.<a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, cooperated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**.
 
 
 # 📖 Educations
-- *2021.09 - 2024.06*, M.E. in College of Automation Science and Engineering, South China University of Technology, Guangzhou. 
-- *2017.09 - 2021.06*, B.E. in College of Automation Science and Engineering, South China University of Technology, Guangzhou. 
+- *2021.09 - 2024.06*, M.E. in School of Automation Science and Engineering, SCUT, Guangzhou. 
+- *2017.09 - 2021.06*, B.E. in School of Automation Science and Engineering, SCUT, Guangzhou. 
 
 
 # 📝 Publications 
@@ -44,6 +44,7 @@ I have published 2 papers at the IEEE Transactions.<a href='https://scholar.goog
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun -->
 
 **Biometrics** 
+- FV-Prune: CNN Compression Based on Network Pruning for Finger Vein Authentication. **Draft**, **Zheng, A.**, and other four coauthors.
 
 - [FVFSNet: Frequency-spatial coupling network for finger vein authentication. ](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:9yKSN-GCB0IC) Huang, J., **Zheng, A.**, Shakeel, M. S., Yang, W., & Kang, W. (2023).
 
@@ -52,12 +53,28 @@ I have published 2 papers at the IEEE Transactions.<a href='https://scholar.goog
 </div>
 </div>
 
-
+# ⚙️ Academic Activities
+- Reviewer for IEEE Signal Processing Letters, Multimedia Systems.
 
 # 🎖 Honors and Awards
-- *2019.08* National Second Prize in the NXP Cup College Students Intelligent Vehicle Competition, [our Vehicle](/images/Intelligent_Vehicle.jpeg)
-- *2019.10* National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [project](https://github.com/Sahala08/CUMCM2019-A)
 
+**Competition Awards** 
+- Second Prize in the Challenge Cup Technology Competition at SCUT, Full-View 3D Finger Vein High-Security Identification System.
+- National Second Prize in the NXP Cup College Students Intelligent Car Competition, [our car](/images/Intelligent_Vehicle.jpeg).
+- National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [code](https://github.com/Sahala08/CUMCM2019-A).
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+**Scholarship** 
+- Goodix Technology Scholarship
+- Postgraduate Scholarship
+- Hongping-Changqing Fund Scholarship ✖ 2
+- Innovation Cultivation Fund-Scholarship in School of Automation Science and Engineering
+
+# 💻 Skills
+- Familiar with Python, C/C++, and PyTorch, experienced in developing deep learning algorithms on Linux.
+- Familiar with deep learning algorithms, including deep feature extraction and network compression algorithms.
+- Familiar with the basic knowledge of intelligent devices.
+
+# ☘️ Social Practice Experience
+- *2023.09 - 2024.01*, [Momenta](https://www.momenta.cn/ch/), Guangzhou, software engineer for L2 Level Mass Production Autonomous Driving System.
+
+- 2018, 2019, and 2020, Outstanding Individual in Winter Vacation Social Practice for High School Promotion, responsible for organization and promotion.
