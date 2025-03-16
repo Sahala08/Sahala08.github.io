@@ -10,6 +10,9 @@ title                    : "An Zheng"
 description              : "Here is An Zheng. "
 repository               : "Sahala08/Sahala08.github.io"
 google_scholar_stats_use_cdn : true
+github: [metadata]
+github_metadata:
+  disable: true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
