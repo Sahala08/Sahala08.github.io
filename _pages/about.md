@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+**I am now applying for a Ph.D. program to further my research. My research interest includes Biometrics, Computer Vision, Deep Learning.** I recently completed my Master's degree at South China University of Technology, where I was supervised by **[Prof. Wenxiong Kang](https://www.scholat.com/auwxkang)** and **[Prof. Junduan Huang](https://www.scholat.com/junduanhuang)**, focusing on **biometrics, computer vision, and deep learning**. Moreover, I received my Bachelor's Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**.
 
-I am now in the process of applying for a Ph.D. program to further my research in [你的研究领域]. I recently completed my Master's degree at South China University of Technology, where I was supervised by Prof. Wenxiong Kang and Prof. Junduan Huang, focusing on biometrics, computer vision, and deep learning during my studies. Moreover, I received my Bachelor's Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of Dr. Xiaoyan Deng. Additionally, I studied mathematical modeling under the supervision of Prof. Weijian Ding.
 
-My research interest includes Biometrics, Computer Vision, Deep Learning.
-I have published more than 2 papers at the top AI Trans with total google scholar citations <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+I have published 2 papers at the IEEE Transactions.<a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
 
 # 📖 Educations
 - *2021.09 - 2024.06*, M.E. in College of Automation Science and Engineering, South China University of Technology, Guangzhou. 
@@ -44,9 +44,10 @@ I have published more than 2 papers at the top AI Trans with total google schola
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun -->
 
 **Biometrics** 
-- [FVT](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C)
 
-- [FVFSNet](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:9yKSN-GCB0IC), A, B, C, **CVPR 2020**
+- [FVFSNet: Frequency-spatial coupling network for finger vein authentication. ](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:9yKSN-GCB0IC) Huang, J., **Zheng, A.**, Shakeel, M. S., Yang, W., & Kang, W. (2023).
+
+- [FVT: Finger vein transformer for authentication[J]. ](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C) Huang, J., Luo, W., Yang, W., **Zheng, A.**, Lian, F., & Kang, W. IEEE Transactions on Instrumentation and Measurement. (2022)
 
 </div>
 </div>
@@ -54,7 +55,9 @@ I have published more than 2 papers at the top AI Trans with total google schola
 
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- *2019.08* National Second Prize in the NXP Cup College Students Intelligent Vehicle Competition ![Intelligent Vehicle Competition](/images/Intelligent_Vehicle.jpeg)
+- *2019.10* National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [project](https://github.com/Sahala08/CUMCM2019-A)
+
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
