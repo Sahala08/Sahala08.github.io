@@ -45,7 +45,7 @@ I have published 2 papers at the IEEE Transactions <a href='https://scholar.goog
 # 📝 Publications 
 
 ## Biometrics
-- "FV-Prune: CNN Compression Based on Network Pruning for Finger Vein Authentication." (**<u>Draft</u>**) **<u>Zheng, A.</u>**, and other four co-authors.
+<!-- - "FV-Prune: CNN Compression Based on Network Pruning for Finger Vein Authentication." (**<u>Draft</u>**) **<u>Zheng, A.</u>**, and other four co-authors. -->
 
 - "FVFSNet: Frequency-spatial coupling network for finger vein authentication." Huang, J., **<u>Zheng, A.</u>**, Shakeel, M. S., Yang, W., & Kang, W. (2023). [[link]](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:9yKSN-GCB0IC)
 
