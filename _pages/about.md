@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-I am now in the process of applying for a Ph.D. program to further my research in [你的研究领域]. I recently completed my Master’s degree at South China University of Technology, where I was supervised by Prof. Wenxiong Kang and Prof. Junduan Huang, focusing on biometrics, computer vision, and deep learning during my studies. Moreover, I received my Bachelor’s Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of Dr. Xiaoyan Deng. Additionally, I studied mathematical modeling under the supervision of Prof. Weijian Ding.
+I am now in the process of applying for a Ph.D. program to further my research in [你的研究领域]. I recently completed my Master's degree at South China University of Technology, where I was supervised by Prof. Wenxiong Kang and Prof. Junduan Huang, focusing on biometrics, computer vision, and deep learning during my studies. Moreover, I received my Bachelor's Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of Dr. Xiaoyan Deng. Additionally, I studied mathematical modeling under the supervision of Prof. Weijian Ding.
 
 My research interest includes Biometrics, Computer Vision, Deep Learning.
 I have published more than 2 papers at the top AI Trans with total google scholar citations <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
@@ -44,11 +44,8 @@ I have published more than 2 papers at the top AI Trans with total google schola
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun -->
 
 **Biometrics** 
-<strong><span class='show_paper_citations' data='GYHA_S8AAAAJ:d1gkVwhDpl0C'></span></strong>
-- [FVT](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C). 
+- [FVT](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C)
 
-
-<strong><span class='show_paper_citations' data='GYHA_S8AAAAJ:9yKSN-GCB0IC'></span></strong>
 - [FVFSNet](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:9yKSN-GCB0IC), A, B, C, **CVPR 2020**
 
 </div>
@@ -57,7 +54,7 @@ I have published more than 2 papers at the top AI Trans with total google schola
 
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
