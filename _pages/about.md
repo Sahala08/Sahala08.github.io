@@ -55,7 +55,7 @@ I have published 2 papers at the IEEE Transactions.<a href='https://scholar.goog
 
 
 # 🎖 Honors and Awards
-- *2019.08* National Second Prize in the NXP Cup College Students Intelligent Vehicle Competition ![Intelligent Vehicle Competition](/images/Intelligent_Vehicle.jpeg)
+- *2019.08* National Second Prize in the NXP Cup College Students Intelligent Vehicle Competition, [our Vehicle](/images/Intelligent_Vehicle.jpeg)
 - *2019.10* National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [project](https://github.com/Sahala08/CUMCM2019-A)
 
 
