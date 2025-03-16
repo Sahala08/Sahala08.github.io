@@ -20,7 +20,9 @@ redirect_from:
 **I am applying for a Ph.D. program to further my research. My research interest includes Biometrics, Computer Vision, Deep Learning.** I recently completed my Master's degree at South China University of Technology, SCUT. In which, I was supervised by **[Prof. Wenxiong Kang](https://www.scholat.com/auwxkang)** and **[Prof. Feiqi Deng](https://yanzhao.scut.edu.cn/open/ExpertInfo.aspx?zjbh=!JRAmWbMdOxrzarf0xUo7w==)**, focusing on **biometrics, computer vision, and deep learning**. I also cooperated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**. Before that, I received my Bachelor's Degree from South China University of Technology in Automation in 2021. During my undergraduate years, I focused on intelligent devices at the edge under the guidance of **[Dr. Xiaoyan Deng](https://ieeexplore.ieee.org/author/37086300159)**.
 
 
-Although I have actively participated in several research projects, I do not have any first-author publications yet. I have published 2 papers at the IEEE Transactions.<a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, cooperated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**.
+I have published 2 papers at the IEEE Transactions <a href='https://scholar.google.com/citations?user=GYHA_S8AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, cooperated with **[Dr. Junduan Huang](https://www.scholat.com/junduanhuang)**.
+
+<!-- Although I do not have any first-author publications, I have actively participated in several research projects.  -->
 
 
 # 📖 Educations
