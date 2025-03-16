@@ -54,7 +54,7 @@ Although I have actively participated in several research projects, I do not hav
 </div>
 
 # ⚙️ Academic Activities
-- Reviewer for IEEE Signal Processing Letters, Multimedia Systems.
+- Reviewer for IEEE Signal Processing Letters.
 
 # 🎖 Honors and Awards
 
@@ -76,5 +76,4 @@ Although I have actively participated in several research projects, I do not hav
 
 # ☘️ Social Practice Experience
 - *2023.09 - 2024.01*, [Momenta](https://www.momenta.cn/ch/), Guangzhou, software engineer for L2 Level Mass Production Autonomous Driving System.
-
 - 2018, 2019, and 2020, Outstanding Individual in Winter Vacation Social Practice for High School Promotion, responsible for organization and promotion.
