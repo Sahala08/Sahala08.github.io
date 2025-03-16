@@ -29,20 +29,22 @@ I have published 2 papers at the IEEE Transactions <a href='https://scholar.goog
 - *2021.09 - 2024.06*, M.E. in School of Automation Science and Engineering, SCUT, Guangzhou. 
 - *2017.09 - 2021.06*, B.E. in School of Automation Science and Engineering, SCUT, Guangzhou. 
 
+# 🎖 Honors and Awards
+
+**Competition Awards** 
+- Second Prize in the Challenge Cup Technology Competition at SCUT, Full-View 3D Finger Vein High-Security Identification System.
+- National Second Prize in the NXP Cup College Students Intelligent Car Competition, [our car](/images/Intelligent_Vehicle.jpeg).
+- National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [code](https://github.com/Sahala08/CUMCM2019-A).
+
+**Scholarship** 
+- Goodix Technology Scholarship
+- Postgraduate Scholarship
+- Hongping-Changqing Fund Scholarship ✖ 2
+- Innovation Cultivation Fund-Scholarship in School of Automation Science and Engineering
 
 # 📝 Publications 
 
 <div class='paper-box'>
-<!-- <div class='paper-box-image'>
-<div>
-<div class="badge">CVPR 2016</div>
-<img src='images/500x300.png' alt="sym" width="100%">
-</div>
-</div> -->
-
-<!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun -->
 
 **Biometrics** 
 - FV-Prune: CNN Compression Based on Network Pruning for Finger Vein Authentication. **Draft**, **Zheng, A.**, and other four coauthors.
@@ -57,18 +59,6 @@ I have published 2 papers at the IEEE Transactions <a href='https://scholar.goog
 # ⚙️ Academic Activities
 - Reviewer for IEEE Signal Processing Letters.
 
-# 🎖 Honors and Awards
-
-**Competition Awards** 
-- Second Prize in the Challenge Cup Technology Competition at SCUT, Full-View 3D Finger Vein High-Security Identification System.
-- National Second Prize in the NXP Cup College Students Intelligent Car Competition, [our car](/images/Intelligent_Vehicle.jpeg).
-- National First Prize in the College Students Mathematical Contest in Modeling, [report](https://github.com/Sahala08/CUMCM2019-A/blob/master/docs/A201919002111.pdf), [code](https://github.com/Sahala08/CUMCM2019-A).
-
-**Scholarship** 
-- Goodix Technology Scholarship
-- Postgraduate Scholarship
-- Hongping-Changqing Fund Scholarship ✖ 2
-- Innovation Cultivation Fund-Scholarship in School of Automation Science and Engineering
 
 # 💻 Skills
 - Familiar with Python, C/C++, and PyTorch, experienced in developing deep learning algorithms on Linux.
