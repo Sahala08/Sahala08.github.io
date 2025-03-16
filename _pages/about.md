@@ -39,7 +39,6 @@ I have published 2 papers at the IEEE Transactions <a href='https://scholar.goog
 <img src='images/500x300.png' alt="sym" width="100%">
 </div>
 </div> -->
-<div class='paper-box-text' markdown="1">
 
 <!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
@@ -52,7 +51,7 @@ I have published 2 papers at the IEEE Transactions <a href='https://scholar.goog
 
 - [FVT: Finger vein transformer for authentication[J]. ](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=GYHA_S8AAAAJ&citation_for_view=GYHA_S8AAAAJ:d1gkVwhDpl0C) Huang, J., Luo, W., Yang, W., **Zheng, A.**, Lian, F., & Kang, W. IEEE Transactions on Instrumentation and Measurement. (2022)
 
-</div>
+
 </div>
 
 # ⚙️ Academic Activities
