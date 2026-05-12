@@ -67,5 +67,5 @@ Prior to my master's studies, I received my Bachelor's degree in Automation from
 
 # ☘️ Social Practice Experience
 <!-- - *2023.09 - 2024.01*, [Momenta](https://www.momenta.cn/ch/), Guangzhou, software engineer for L2 Level Mass Production Autonomous Driving System. -->
-- 2025.07-now, Algorithm Engineer - Exoskeleton Robotics, in [LEQI](https://www.lqwheel.com/).
+<!-- - 2025.07-now, Algorithm Engineer - Exoskeleton Robotics, in [LEQI](https://www.lqwheel.com/). -->
 - 2018, 2019, and 2020, Outstanding Individual in Winter Vacation Social Practice for High School Promotion, responsible for organization and promotion.
